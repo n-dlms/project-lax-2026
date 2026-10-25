@@ -1,0 +1,30 @@
+.DS_Store
+node_modules/
+dist/
+private/
+submission/
+*.log
+.env
+.env.*
+.local/
+.cache/
+.wrangler/
+
+# Publish only the maintained technical documents.
+/docs/*
+!/docs/README.md
+!/docs/ARCHITECTURE.md
+!/docs/SSDLC.md
+!/docs/media/
+
+# Generated Android files and local signing configuration.
+android/.gradle/
+android/build/
+android/app/build/
+android/android-keystore*
+android/*.apk
+android/*.aab
+android/local.properties
+android/keystore.properties
+android/*.jks
+android/.cxx/

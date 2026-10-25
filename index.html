@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="en-ZA">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#112b2b">
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <link rel="manifest" href="./manifest.webmanifest">
+  <link rel="apple-touch-icon" href="./assets/app-icon-192.png">
+  <meta name="description" content="Project LAX helps you see cash shortfalls before essential bills are due.">
+  <title>Project LAX — Money confidence, before the bill</title>
+  <link rel="icon" href="./assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="./style.css">
+  <script src="./freshness.js" defer></script>
+  <script type="module" src="./app.js"></script>
+</head>
+<body>
+  <div class="ambient" id="ambient" aria-hidden="true"><span class="ambient-orb ambient-orb-one"></span><span class="ambient-orb ambient-orb-two"></span></div>
+  <div id="app"></div>
+  <div class="pointer-stage" id="pointer-stage" aria-hidden="true"><span class="pointer-glow"></span><span class="pointer-vector"><i></i><i></i><i></i><b></b></span></div>
+</body>
+</html>

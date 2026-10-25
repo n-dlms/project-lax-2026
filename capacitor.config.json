@@ -1,0 +1,11 @@
+{
+  "appId": "za.co.projectlax.app",
+  "appName": "Project LAX",
+  "webDir": "dist",
+  "server": {
+    "androidScheme": "https"
+  },
+  "android": {
+    "allowMixedContent": false
+  }
+}
